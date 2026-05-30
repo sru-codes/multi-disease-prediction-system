@@ -1,0 +1,78 @@
+{
+  "project_info": {
+    "title": "AI-Powered Multi-Disease Prediction System",
+    "created": 1780150910.741,
+    "last_updated": 1780150987.638,
+    "total_slides": 6
+  },
+  "slides": [
+    {
+      "id": "title_slide",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "introduction",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "objectives",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "architecture",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "performance",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "conclusion",
+      "state": "edited",
+      "pageNum": 6
+    }
+  ],
+  "outline": [
+    {
+      "id": "title_slide",
+      "title": "AI-Powered Multi-Disease Prediction System",
+      "summary": "Title slide with project name and author details.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "introduction",
+      "title": "Addressing Global Healthcare Challenges",
+      "summary": "Introduction to the problem of specialist availability and the role of AI in early diagnosis.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "objectives",
+      "title": "Project Objective: A Unified Health Interface",
+      "summary": "Overview of the project goals including unified diagnostics and user-centric design.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "architecture",
+      "title": "Technical Architecture: The Power of Scikit-Learn",
+      "summary": "Detailed breakdown of the algorithms used for each disease prediction.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "performance",
+      "title": "Data-Driven Insights: Model Performance",
+      "summary": "Explanation of training data, preprocessing, and evaluation metrics.",
+      "image_plan": "Use a suitable image if needed"
+    },
+    {
+      "id": "conclusion",
+      "title": "Conclusion: Empowering the Future of Health",
+      "summary": "Final thoughts on the project's impact and the team behind it.",
+      "image_plan": "Use a suitable image if needed"
+    }
+  ]
+}

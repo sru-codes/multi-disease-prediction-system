@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400&display=swap" rel="stylesheet">
+    <style>
+      html,body{height:100%;margin:0;padding:0;background:#FAFAFA}
+      .slide-container { 
+        width: 1280px; 
+        min-height: 720px; 
+        box-sizing: border-box; 
+        background-color: #FAFAFA; 
+        display: flex;
+        font-family: 'Inter', sans-serif;
+        color: #718096;
+        position: relative;
+        overflow: hidden;
+      }
+      .left-col {
+        width: 45%;
+        padding-top: 80px;
+        padding-left: 80px;
+        border-right: 1px solid #E2E8F0;
+      }
+      .right-col {
+        width: 55%;
+        padding-top: 80px;
+        padding-left: 60px;
+        padding-right: 80px;
+      }
+      h2 {
+        font-family: 'Playfair Display', serif;
+        font-size: 48px;
+        color: #2D3748;
+        line-height: 1.2;
+        margin-bottom: 24px;
+      }
+      .accent-line {
+        width: 60px;
+        height: 4px;
+        background-color: #2B6CB0;
+        margin-bottom: 32px;
+      }
+      blockquote {
+        font-family: 'Playfair Display', serif;
+        font-size: 22px;
+        color: #2B6CB0;
+        border-left: 4px solid #2B6CB0;
+        padding-left: 20px;
+        margin-top: 40px;
+        font-style: italic;
+      }
+      .model-item {
+        margin-bottom: 32px;
+      }
+      .model-name {
+        font-family: 'Playfair Display', serif;
+        font-size: 24px;
+        color: #2D3748;
+        font-weight: 700;
+        margin-bottom: 8px;
+      }
+      .model-desc {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+      .highlight {
+        color: #2B6CB0;
+        font-weight: 700;
+      }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="left-col">
+            <h2>Technical Architecture: The Power of Scikit-Learn</h2>
+            <div class="accent-line"></div>
+            <blockquote>"Leveraging diverse algorithms for specialized medical diagnostic tasks."</blockquote>
+        </div>
+        <div class="right-col">
+            <div class="model-item">
+                <div class="model-name">Diabetes Prediction</div>
+                <div class="model-desc">Uses <span class="highlight">Random Forest Classifier</span> to handle complex physiological interactions and non-linear relationships.</div>
+            </div>
+            <div class="model-item">
+                <div class="model-name">Heart Disease Analysis</div>
+                <div class="model-desc">Employs <span class="highlight">Logistic Regression</span> to determine risk probability based on established clinical vitals.</div>
+            </div>
+            <div class="model-item">
+                <div class="model-name">Kidney Disease Screening</div>
+                <div class="model-desc">Utilizes <span class="highlight">Support Vector Machines (SVM)</span> for high-dimensional data accuracy and robust classification.</div>
+            </div>
+            <div class="model-item">
+                <div class="model-desc">All models are serialized using <span class="highlight">Joblib</span> for fast, real-time inference in production environments.</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

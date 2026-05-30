@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400&display=swap" rel="stylesheet">
+    <style>
+      html,body{height:100%;margin:0;padding:0;background:#FAFAFA}
+      .slide-container { 
+        width: 1280px; 
+        min-height: 720px; 
+        box-sizing: border-box; 
+        background-color: #FAFAFA; 
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center; 
+        font-family: 'Inter', sans-serif;
+        color: #718096;
+        position: relative;
+        overflow: hidden;
+      }
+      .content-box {
+        text-align: center;
+        max-width: 900px;
+        z-index: 2;
+      }
+      h2 { 
+        font-family: 'Playfair Display', serif; 
+        font-size: 56px; 
+        color: #2D3748; 
+        margin-bottom: 24px;
+        line-height: 1.2;
+      }
+      .summary-text { 
+        font-size: 24px; 
+        color: #718096; 
+        margin-bottom: 40px;
+        line-height: 1.6;
+      }
+      .divider {
+        width: 120px;
+        height: 4px;
+        background-color: #2B6CB0;
+        margin: 0 auto 40px auto;
+      }
+      .team-section {
+        font-size: 22px;
+        color: #2D3748;
+      }
+      .team-label {
+        font-weight: 700;
+        color: #2B6CB0;
+        margin-bottom: 8px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+      .accent-shape {
+        position: absolute;
+        bottom: -100px;
+        left: -100px;
+        width: 400px;
+        height: 400px;
+        background-color: #E2E8F0;
+        border-radius: 50%;
+        opacity: 0.4;
+        z-index: 1;
+      }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="accent-shape"></div>
+        <div class="content-box">
+            <h2>Empowering the Future of Health</h2>
+            <div class="divider"></div>
+            <p class="summary-text">
+                The AI-Powered Multi-Disease Prediction System represents a scalable solution for early medical intervention, 
+                making personalized healthcare more accessible through data-driven technology.
+            </p>
+            <div class="team-section">
+                <div class="team-label">Project Team</div>
+                <div>Srustisri Panda • Puja Rani Mishra • Kajal Roul</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

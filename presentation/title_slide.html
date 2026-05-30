@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+      html,body{height:100%;margin:0;padding:0;background:#FAFAFA}
+      .slide-container { 
+        width: 1280px; 
+        min-height: 720px; 
+        box-sizing: border-box; 
+        background-color: #FAFAFA; 
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center; 
+        font-family: 'Inter', sans-serif;
+        color: #718096;
+        position: relative;
+        overflow: hidden;
+      }
+      .title-box {
+        text-align: center;
+        max-width: 900px;
+        z-index: 2;
+      }
+      h1 { 
+        font-family: 'Playfair Display', serif; 
+        font-size: 64px; 
+        color: #2D3748; 
+        margin-bottom: 12px;
+        line-height: 1.2;
+      }
+      .subtitle { 
+        font-size: 32px; 
+        color: #2B6CB0; 
+        margin-bottom: 18px;
+      }
+      .divider {
+        width: 200px;
+        height: 2px;
+        background-color: #2B6CB0;
+        margin: 0 auto 18px auto;
+      }
+      .authors {
+        font-size: 20px;
+        color: #2D3748;
+        font-weight: 700;
+        margin-bottom: 0;
+      }
+      .footer {
+        position: absolute;
+        bottom: 24px;
+        font-size: 16px;
+        color: #A0AEC0;
+      }
+      .accent-shape {
+        position: absolute;
+        top: -80px;
+        right: -100px;
+        width: 360px;
+        height: 360px;
+        background-color: #E2E8F0;
+        border-radius: 50%;
+        opacity: 0.5;
+        z-index: 1;
+      }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="accent-shape"></div>
+        <div class="title-box">
+            <h1>AI-Powered Multi-Disease Prediction System</h1>
+            <div class="subtitle">A Comprehensive Healthcare Solution for Early Diagnosis</div>
+            <div class="divider"></div>
+            <div class="authors">Created by: Srustisri Panda, Puja Rani Mishra, Kajal Roul</div>
+        </div>
+        <div class="footer">AI/ML Major Project • 2024</div>
+    </div>
+</body>
+</html>

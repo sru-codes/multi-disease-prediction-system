@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400&display=swap" rel="stylesheet">
+    <style>
+      html,body{height:100%;margin:0;padding:0;background:#FAFAFA}
+      .slide-container { 
+        width: 1280px; 
+        min-height: 720px; 
+        box-sizing: border-box; 
+        background-color: #FAFAFA; 
+        display: flex;
+        font-family: 'Inter', sans-serif;
+        color: #718096;
+        position: relative;
+        overflow: hidden;
+      }
+      .left-col {
+        width: 50%;
+        padding-top: 80px;
+        padding-left: 80px;
+        padding-right: 40px;
+        border-right: 1px solid #E2E8F0;
+      }
+      .right-col {
+        width: 50%;
+        padding-top: 80px;
+        padding-left: 60px;
+        padding-right: 80px;
+      }
+      h2 {
+        font-family: 'Playfair Display', serif;
+        font-size: 42px;
+        color: #2D3748;
+        line-height: 1.2;
+        margin-bottom: 24px;
+      }
+      .accent-line {
+        width: 60px;
+        height: 4px;
+        background-color: #2B6CB0;
+        margin-bottom: 32px;
+      }
+      .methodology-title {
+        font-family: 'Playfair Display', serif;
+        font-size: 24px;
+        color: #2D3748;
+        margin-bottom: 16px;
+        font-weight: 700;
+      }
+      ul {
+        list-style: none;
+      }
+      li {
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 18px;
+        position: relative;
+        padding-left: 25px;
+      }
+      li::before {
+        content: "•";
+        color: #2B6CB0;
+        position: absolute;
+        left: 0;
+        font-weight: bold;
+      }
+      blockquote {
+        font-family: 'Playfair Display', serif;
+        font-size: 22px;
+        color: #2B6CB0;
+        border-left: 4px solid #2B6CB0;
+        padding-left: 20px;
+        margin-top: 30px;
+        font-style: italic;
+      }
+      .metric-box {
+        margin-top: 40px;
+        padding-top: 20px;
+        border-top: 1px solid #E2E8F0;
+      }
+      .metric-item {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 12px;
+        font-size: 18px;
+      }
+      .metric-label {
+        color: #2D3748;
+        font-weight: 700;
+      }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="left-col">
+            <h2>Data-Driven Insights: Model Performance</h2>
+            <div class="accent-line"></div>
+            <div class="methodology-title">Methodology & Preprocessing</div>
+            <ul>
+                <li>Standardized datasets sourced from the UCI Machine Learning Repository.</li>
+                <li>Comprehensive preprocessing: scaling, encoding, and missing value imputation.</li>
+                <li>Rigorous training-testing splits to ensure model generalization.</li>
+                <li>Feature engineering focused on clinically relevant physiological markers.</li>
+            </ul>
+        </div>
+        <div class="right-col">
+            <div class="methodology-title">Evaluation Strategy</div>
+            <blockquote>"Prioritizing high sensitivity to ensure potential health risks are accurately identified."</blockquote>
+            <div class="metric-box">
+                <div class="metric-item">
+                    <span class="metric-label">Diabetes Accuracy</span>
+                    <span>~85%</span>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-label">Heart Disease Precision</span>
+                    <span>~88%</span>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-label">Kidney Disease F1-Score</span>
+                    <span>~90%</span>
+                </div>
+            </div>
+            <p style="font-size: 14px; margin-top: 20px; color: #A0AEC0;">*Metrics based on internal validation sets.</p>
+        </div>
+    </div>
+</body>
+</html>

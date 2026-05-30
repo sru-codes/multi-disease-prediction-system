@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400&display=swap" rel="stylesheet">
+    <style>
+      html,body{height:100%;margin:0;padding:0;background:#FAFAFA}
+      .slide-container { 
+        width: 1280px; 
+        min-height: 720px; 
+        box-sizing: border-box; 
+        background-color: #FAFAFA; 
+        display: flex;
+        font-family: 'Inter', sans-serif;
+        color: #718096;
+        position: relative;
+        overflow: hidden;
+      }
+      .left-col {
+        width: 45%;
+        padding-top: 80px;
+        padding-left: 80px;
+        border-right: 1px solid #E2E8F0;
+      }
+      .right-col {
+        width: 55%;
+        padding-top: 80px;
+        padding-left: 60px;
+        padding-right: 80px;
+      }
+      h2 {
+        font-family: 'Playfair Display', serif;
+        font-size: 48px;
+        color: #2D3748;
+        line-height: 1.2;
+        margin-bottom: 24px;
+      }
+      .accent-line {
+        width: 60px;
+        height: 4px;
+        background-color: #2B6CB0;
+        margin-bottom: 32px;
+      }
+      blockquote {
+        font-family: 'Playfair Display', serif;
+        font-size: 24px;
+        color: #2B6CB0;
+        border-left: 4px solid #2B6CB0;
+        padding-left: 20px;
+        margin-top: 40px;
+        font-style: italic;
+      }
+      ul {
+        list-style: none;
+      }
+      li {
+        font-size: 20px;
+        line-height: 1.6;
+        margin-bottom: 24px;
+        position: relative;
+        padding-left: 30px;
+      }
+      li::before {
+        content: "•";
+        color: #2B6CB0;
+        position: absolute;
+        left: 0;
+        font-weight: bold;
+      }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="left-col">
+            <h2>Addressing Global Healthcare Challenges</h2>
+            <div class="accent-line"></div>
+            <blockquote>"Early diagnosis is the most effective tool for managing chronic diseases."</blockquote>
+        </div>
+        <div class="right-col">
+            <ul>
+                <li>Bridging the gap in specialist availability through technology.</li>
+                <li>Addressing the severe shortage of specialized medical professionals globally.</li>
+                <li>Empowering health-conscious individuals with immediate risk assessments.</li>
+                <li>Providing data-driven insights to enable proactive health management.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
