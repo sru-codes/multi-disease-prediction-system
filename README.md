@@ -1,6 +1,7 @@
 # AI-Powered Multi-Disease Prediction System (Major Project)
 
-**Author:** Srustisri Panda  
+**Authors:** Srustisri Panda, Puja Rani Mishra, Kajal Roul  
+**Project Type:** Group Project  
 **Topic:** Healthcare & Medical AI  
 **Project ID:** Major Project #1 (from AI/ML Major Project List)
 
